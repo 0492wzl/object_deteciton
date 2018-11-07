@@ -12,9 +12,9 @@ export PYTHONPATH=$PYTHONPATH:$DIR:$DIR/slim:$DIR/object_detection
 output_dir=/output  # 训练目录
 dataset_dir=/data/kaxier5000/detection-dataset # 数据集目录，这里是写死的，记得修改
 
-train_dir=$output_dir/train/
+train_dir=$output_dir/train
 checkpoint_dir=$dataset_dir  # change $train_dir into $dataset_dir
-eval_dir=$output_dir/eval/
+eval_dir=$output_dir/eval
 
 # config文件
 config=ssd_mobilenet_v1_pets.config
