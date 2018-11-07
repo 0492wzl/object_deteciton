@@ -36,7 +36,7 @@ do
     current=$[($i+1)*10]
     sed -i "s/^  num_steps: $last$/  num_steps: $current/g" $pipeline_config_path  # 通过num_steps控制一次训练最多100step
 
-    echo "############" $i "training #################"
+    echo "############" $i "training  last=" $last "current=" $current "#################"
     python ./object_detection/train.py --train_dir=$train_dir --pipeline_config_path=$pipeline_config_path
 
     echo "############" $i "evaluating, this takes a long while #################"
