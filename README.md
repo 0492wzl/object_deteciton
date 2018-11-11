@@ -18,6 +18,7 @@
 # 训练结果
 ### 在tinymind上面训练结果不佳，跑出一定train steps 后改为本地环境冻结权重生成模型并测试结果
 ## [tinymind训练结果](https://www.tinymind.com/executions/1adl2mct)
+## [本地训练结果](https://github.com/0492wzl/tensorflow_r1.5_objectDetection/tree/master/research/output)
 ![截图](https://github.com/0492wzl/tensorflow_r1.5_objectDetection/blob/master/research/%E8%AE%AD%E7%BB%83ckpt%E6%96%87%E4%BB%B6.png)
 
 
