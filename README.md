@@ -19,7 +19,7 @@
 ### 在tinymind上面训练结果不佳，跑出一定train steps 后改为本地环境冻结权重生成模型并测试结果
 ## [tinymind训练结果](https://www.tinymind.com/executions/1adl2mct)
 ## [本地训练结果](research/output)
-![截图]research/%E8%AE%AD%E7%BB%83ckpt%E6%96%87%E4%BB%B6.png)
+![截图](research/%E8%AE%AD%E7%BB%83ckpt%E6%96%87%E4%BB%B6.png)
 
 
 ![test结果](research/output/output.png)
